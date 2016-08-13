@@ -47,7 +47,9 @@ c:\users\abhinav\documents\visual studio 2015\Projects\UMedia\UMedia\bin\System.
 c:\users\abhinav\documents\visual studio 2015\Projects\UMedia\UMedia\bin\System.Web.WebPages.Deployment.dll
 c:\users\abhinav\documents\visual studio 2015\Projects\UMedia\UMedia\bin\System.Web.WebPages.dll
 c:\users\abhinav\documents\visual studio 2015\Projects\UMedia\UMedia\bin\System.Web.WebPages.Razor.dll
+c:\users\abhinav\documents\visual studio 2015\Projects\UMedia\UMedia\bin\UMediaModel.dll
 c:\users\abhinav\documents\visual studio 2015\Projects\UMedia\UMedia\bin\WebGrease.dll
+c:\users\abhinav\documents\visual studio 2015\Projects\UMedia\UMedia\bin\UMediaModel.pdb
 c:\users\abhinav\documents\visual studio 2015\Projects\UMedia\UMedia\bin\Microsoft.AI.DependencyCollector.xml
 c:\users\abhinav\documents\visual studio 2015\Projects\UMedia\UMedia\bin\Microsoft.AI.ServerTelemetryChannel.xml
 c:\users\abhinav\documents\visual studio 2015\Projects\UMedia\UMedia\bin\Microsoft.AI.Web.xml

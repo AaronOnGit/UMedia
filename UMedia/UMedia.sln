@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMedia", "UMedia\UMedia.csproj", "{D28E8A87-0DFA-44CF-8B89-ACAA1C7841D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMedia", "UMedia\UMedia.csproj", "{3426819E-3755-48E5-B51E-0B92E5957402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMediaModel", "UMediaModel\UMediaModel.csproj", "{8B95FEE8-F84C-4413-A278-188706C91E67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D28E8A87-0DFA-44CF-8B89-ACAA1C7841D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D28E8A87-0DFA-44CF-8B89-ACAA1C7841D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D28E8A87-0DFA-44CF-8B89-ACAA1C7841D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D28E8A87-0DFA-44CF-8B89-ACAA1C7841D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3426819E-3755-48E5-B51E-0B92E5957402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3426819E-3755-48E5-B51E-0B92E5957402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3426819E-3755-48E5-B51E-0B92E5957402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3426819E-3755-48E5-B51E-0B92E5957402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B95FEE8-F84C-4413-A278-188706C91E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B95FEE8-F84C-4413-A278-188706C91E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B95FEE8-F84C-4413-A278-188706C91E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B95FEE8-F84C-4413-A278-188706C91E67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
