@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fa9f8da254a741d58134d1fba14f9577" Name="Diagram1">
+        <EntityTypeShape EntityType="UMediaModel.Channel" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UMediaModel.Comment" Width="1.5" PointX="9.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UMediaModel.Login" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UMediaModel.LookUp" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UMediaModel.Profile" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UMediaModel.Role" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UMediaModel.Subscription" Width="1.5" PointX="7.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UMediaModel.Video" Width="1.5" PointX="7.5" PointY="9.875" IsExpanded="true" />
+        <AssociationConnector Association="UMediaModel.FK_Channel_Profile" ManuallyRouted="false" />
+        <AssociationConnector Association="UMediaModel.FK_Subscription_Channel" ManuallyRouted="false" />
+        <AssociationConnector Association="UMediaModel.FK_Video_Channel" ManuallyRouted="false" />
+        <AssociationConnector Association="UMediaModel.FK_Comment_Profile" ManuallyRouted="false" />
+        <AssociationConnector Association="UMediaModel.FK_Comment_Video" ManuallyRouted="false" />
+        <AssociationConnector Association="UMediaModel.FK_LookUp_Login" ManuallyRouted="false" />
+        <AssociationConnector Association="UMediaModel.FK_Profile_Login" ManuallyRouted="false" />
+        <AssociationConnector Association="UMediaModel.FK_LookUp_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="UMediaModel.FK_Subscription_Profile" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
