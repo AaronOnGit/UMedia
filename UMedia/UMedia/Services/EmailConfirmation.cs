@@ -9,18 +9,16 @@ using System.Threading.Tasks;
 
 namespace UMedia.Services
 {
-    public class EmailConfirmation
+    public static class EmailConfirmation
     {
         public async static Task SendEmailAsync(string email, string subject, string message)
         {
             try
             {
-                var _email = "umedia@gmail.com";
-                var epass = ConfigurationManager.AppSettings["EmailPassword"]; // get password from web.config
-                var _dispName = "UMedia";
+                
                 MailMessage myMessage = new MailMessage();
                 myMessage.To.Add(email);
-                myMessage.From = new MailAddress(_email, _dispName);
+                //myMessage.From = new MailAddress(_email, _dispName);
                 myMessage.Subject = subject;
                 myMessage.Body = message;
                 myMessage.IsBodyHtml = true;
